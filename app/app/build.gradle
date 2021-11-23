@@ -13,11 +13,11 @@ android {
     lintOptions {
         abortOnError false
     }
-    compileSdkVersion 25
+    compileSdkVersion 29
     defaultConfig {
         applicationId "gov.dot.fhwa.saxton.crossingrequest"
-        minSdkVersion 22
-        targetSdkVersion 25
+        minSdkVersion 26
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -52,9 +52,9 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-core:2.8.8'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.8.8'
     compile 'org.springframework.android:spring-android-rest-template:2.0.0.M3'
-    compile 'gov.dot.fhwa.saxton:crossing-request-common:1.0-SNAPSHOT'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.google.android.gms:play-services-maps:10.2.6'
+    //compile 'gov.dot.fhwa.saxton:crossing-request-common:1.0-SNAPSHOT'
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.google.android.gms:play-services-maps:17.0.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
